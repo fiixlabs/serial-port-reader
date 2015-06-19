@@ -1,0 +1,43 @@
+Notices and Licenses for Maintenance Assistant CMMS client for Java
+
+TABLE OF CONTENTS
+
+1. Maintenance Assistant copyright notice
+2. Thirdparty licenses
+
+
+NOTICES AND LICENSES
+
+1. Maintenance Assistant copyright notice
+
+Copyright 2013-2014 Maintenance Assistant Inc. or its affiliates. All Rights Reserved.
+
+http://www.maintenanceassistant.com/
+
+This product is licensed under the terms of the Apache License (AL) 2.0.
+
+http://www.apache.org/licenses/
+
+___________________________________________________________________
+
+2. Thirdparty licenses
+
+2.1. This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/):
+
+a) Apache Commons Codec
+Copyright 2002-2014 The Apache Software Foundation
+
+b) Apache Commons Logging
+Copyright 2003-2014 The Apache Software Foundation
+
+c) Apache Jakarta HttpClient
+Copyright 1999-2014 The Apache Software Foundation
+
+2.2. This product includes software licensed by Apache License (AL) 2.0
+a) Jackson JSON processor
+
+2.3. This product requires software licensed under the GNU Lesser General Public Licencse (LGPL) 2.1
+a) RXTX
+Copyright 1997-2007 by Trent Jarvi tjarvi@qbang.org and others who actually wrote it.
+A copy of the LGPL 2.1 has been included for your convenience, located in the file "RXTX-LICENSE.txt".

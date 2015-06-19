@@ -1,0 +1,150 @@
+﻿STEP-BY-STEP GUIDE
+==================
+
+This is a step-by-step guide for first-time users of the MA Labs Serial Port
+Reader program. For more detailed information on the program, see the
+"README.md" file.
+
+This program requires the Java SE Runtime Environment 8.
+
+The Java SE Runtime Environment 8 downloads are available here:
+
+    http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
+
+If you do not already have a Java SE Runtime Environment that is up-to-date,
+select the download specific to your operating system in the format you prefer
+and install the software before continuing with this guide.
+
+This program also requires the RXTX library, which can be downloaded here:
+
+    http://rxtx.qbang.org/pub/rxtx/rxtx-2.1-7-bins-r2.zip
+
+Follow the instructions included in the zip package. The steps taken are
+specific to which operating system your computer uses.
+
+If you have any issues, see the troubleshooting section in the "README.md" file.
+The "README.md" can be viewed with a web browser or text editor, but is meant to
+be viewed from GitHub at:
+
+    https://github.com/macmms/malabs-serial-port-reader
+
+--------------------------------------------------------------------------------
+
+Step 1: Get your API Access keys - there are 3 of them: Application Key, Access
+        Key, API Secret Key.
+
+    For details on how to get your API keys, go to:
+
+        http://www.maintenanceassistant.com/api/docs/guide.html#api_keys
+    
+    IMPORTANT: Write the keys down, they'll be needed whenever you begin the
+               program.
+
+--------------------------------------------------------------------------------
+
+Step 3: Connect a device that sends data to a serial port to your computer.
+
+    An Arduino Uno outputs to the serial port, and can be used with this
+    program. For information on the Arduino, go to the page:
+
+        http://www.arduino.cc/
+
+    Example Arduino code using a potentiometer has been included in the
+    "examples" folder.
+
+    IMPORTANT: Make sure the device is on, and is sending data to the serial
+               port before moving on to the next step.
+
+--------------------------------------------------------------------------------
+
+Step 4: Start the Serial Port Reader program.
+
+    To run the Serial Port Reader program, double click on the file named:
+
+        "MALabsSerialPortReader.jar"
+
+    The program will begin running.
+
+--------------------------------------------------------------------------------
+
+Step 5:	Input your credentials from step 1, and then click "Set Credentials".
+
+    The program requires your CMMS API URL, which is your CMMS URL with "/api/"
+    added to the end. For example:
+
+        https://youraccount.macmmms.com/api/
+
+    For sandbox accounts, the example is:
+
+        https://youraccount.masandbox.com/api/
+
+   IMPORTANT: Make sure to include the "https://" in the URL.
+
+--------------------------------------------------------------------------------
+
+Step 6: Input the asset ID that your serial port device is linked to and the
+        unit ID of the meter reading.
+
+    The program needs very specific values to run. It is meant for a single
+    asset, and only one type of meter reading.
+
+    To find the ID of an asset, take the following steps from a desktop:
+
+        1. Log into the CMMS (if not already logged in).
+        2. Select "Assets" from the menu on the left.
+        3. Click on the "Set Visible Columns" button.
+            -The button is a small image of a list made of squares and
+             rectangles, located to the far right of the page, above the list
+             of assets.
+        4. Check the box labelled "id".
+        5. Click the "OK" button.
+        6. The ID value of the assets should appear as a new column in the list.
+
+    To find the ID of a meter reading unit, take the following steps:
+
+        1. Log into the CMMS (if not already logged in).
+        2. Select "Assets" from the menu on the left.
+        3. Click on any asset.
+        4. Click on the "Metering/Events" tab.
+        5. Click on the new meter reading image.
+            -It is a little page with the top left corner folded and a plus sign
+             over it, located in the bottom left corner of the chart of "Most
+             Recent Meter Readings".
+        6. Click on the downward pointing arrow beside the box for meter reading
+           units.
+        7. Click on the "Set Visible Columns" button.
+            -The button is a small image of a list made of squares and
+             rectangles, located to the upper-right corner of the pop-up, above
+             the list of units.
+        8. Check the box labelled "id".
+        9. Click the "OK" button.
+        10. The ID value of the units should appear as a new column in the list.
+
+--------------------------------------------------------------------------------
+
+Step 7: Enter the serial port that the device is plugged into, then click "Begin
+        Program".
+
+    If you are using an Arduino, you can take the following steps to
+    find the port your Arduino is using:
+
+        1. Open the Arduino program for writing sketches.
+        2. Click on the "Tools" menu.
+        3. Hover over the "Port" option.
+        4. The list of all plugged in Arduino boards will appear with which
+           ports they are connected to.
+
+--------------------------------------------------------------------------------
+
+Step 8: Make sure the program is running properly.
+
+    The program should be nothing but a window and some text saying "Running",
+    followed by the last meter reading value taken from the device outputting
+    to the serial port.
+
+    To close the program, just click on the "x" in the top right corner of the
+    window, then click "Yes" on the pop-up. This will safely close the program.
+    Closing the program other ways can lead to complications with the serial
+    port.
+
+    If any issues occur, see the troubleshooting section in the"README.md" file.
