@@ -7,12 +7,12 @@ MA Labs Serial Port Reader v1.0
 2. [Introduction](#2-introduction)  
 3. [Requirements](#3-requirements)  
 4. [Running](#4-running)  
-5. [Troubleshooting](5-troubleshooting)  
+5. [Troubleshooting](#5-troubleshooting)  
   5.1 [Credentials](#51-credentials)  
-  5.2 [Running... Started Stall](#52-running-started-stall)
-  5.3 [Running... Errors](#53-running-errors)
+  5.2 [Running... Started Stall](#52-running-started-stall)  
+  5.3 [Running... Errors](#53-running-errors)  
 6. [Licensing](#6-licensing)  
-7. [Change Log](#7-changelog)  
+7. [Change Log](#7-change-log)  
   [v1.0.0](#v100)  
 
 <br>
@@ -221,8 +221,12 @@ the issue and how it can be reproduced.
 Maintenance Assistant Labs Serial Port Reader and Maintenance Assistant CMMS
 client for Java are licensed under the Apache License 2.0.
 
-See "LICENSE.txt", "NOTICE.txt", and "RXTX-LICENSE.txt" files for more
-information.
+See [LICENSE.txt][LI1], [NOTICE.txt][NTC], and [RXTX-LICENSE.txt][LI2] files for
+more information.
+
+  [LI1]: LICENSE.txt
+  [LI2]: RXTX-LICENSE.txt
+  [NTC]: NOTICE.txt
 
 [Back to Top](#ma-labs-serial-port-reader-v10)
 <br>
