@@ -96,7 +96,7 @@ The errors can be unclear.
 
 If the "Set Credentials" button causes nothing to happen, then the URL entered
 in the first field is not a valid URL. Check to make sure that "https://" is at
-the beginning of the 
+the beginning of the URL.
 
 If the "Set Credentials" button causes an error to appear, one of the following
 issues has occurred:
