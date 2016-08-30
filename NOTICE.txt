@@ -1,18 +1,18 @@
-Notices and Licenses for Maintenance Assistant CMMS client for Java
+Notices and Licenses for Fiix client for Java
 
 TABLE OF CONTENTS
 
-1. Maintenance Assistant copyright notice
+1. Maintenance Assistant (DBA Fiix) copyright notice
 2. Thirdparty licenses
 
 
 NOTICES AND LICENSES
 
-1. Maintenance Assistant copyright notice
+1. Maintenance Assistant (DBA Fiix) copyright notice
 
-Copyright 2013-2014 Maintenance Assistant Inc. or its affiliates. All Rights Reserved.
+Copyright 2013-2014 Maintenance Assistant Inc. (DBA Fiix) or its affiliates. All Rights Reserved.
 
-http://www.maintenanceassistant.com/
+http://www.fiixsoftware.com/
 
 This product is licensed under the terms of the Apache License (AL) 2.0.
 

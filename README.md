@@ -1,5 +1,5 @@
-MA Labs Serial Port Reader v1.0
----------------------------------
+Serial Port Reader v1.0
+-----------------------
 
 ### Table Of Contents ###
 
@@ -13,6 +13,7 @@ MA Labs Serial Port Reader v1.0
   5.3 [Running... Errors](#53-running-errors)  
 6. [Licensing](#6-licensing)  
 7. [Change Log](#7-change-log)  
+  [v1.0.1](#v101)  
   [v1.0.0](#v100)  
 
 <br>
@@ -20,17 +21,18 @@ MA Labs Serial Port Reader v1.0
 
 ### 1. Authors &amp; Contributors ###
 
-v1.0.0 Created June 19, 2015 by Jake Uskoski  
+[v1.0.0](#100) Created June 19, 2015 by Jake Uskoski  
+[v1.0.1](#101) Created Aug 25,  2016 by Jake Uskoski  
 
-[Back to Top](#ma-labs-serial-port-reader-v10)
+[Back to Top](#serial-port-reader-v10)
 <br>
 
 
 ### 2. Introduction ###
 
-The Maintenance Assistant Labs Serial Port Reader is a java application meant
-to listen to a single serial port for the collection of meter readings from a
-device such as an Arduino board.
+The Serial Port Reader is a java application meant to listen to a single serial
+port for the collection of meter readings from a device such as an Arduino
+board.
 
 It can only be linked to a single asset, and it cannot have multiple types of
 meter readings being fed at once. For example, if the serial port is recieving
@@ -38,23 +40,25 @@ data for both a light sensor and a temperature sensor, both will be read and
 given the same unit, instead of two different units for the two types of
 sensors.
 
-[Back to Top](#ma-labs-serial-port-reader-v10)
+For a simple step-by-step guide to setting up this program, see the file named
+"Step-By-Step Beginner Guide.txt".
+
+[Back to Top](#serial-port-reader-v10)
 <br>
 
 
 ### 3. Requirements ###
 
-This program requires the Java SE Runtime Environment 8, and uses the
-Maintenance Assistant CMMS client, which depends on the following external
-libraries:
+This program requires the Java SE Runtime Environment 8, and uses the Fiix
+client for Java, which depends on the following external libraries:
 
 * Apache Commons Codec
 * Apache Commons Logging
 * Apache Jakarta HttpClient
 * Jackson JSON processor
 
-These libraries, along with the Maintenance Assistant CMMS client, are packaged
-in the "lib" folder.
+These libraries, along with the Fiix CMMS client for Java, are packaged in the
+"lib" folder.
 
 This program also requires the RXTX library, which is available online at:
 
@@ -67,19 +71,19 @@ is for when it is required you build the library yourself.
 
   [RXTX]: http://rxtx.qbang.org/wiki/index.php/Download
 
-[Back to Top](#ma-labs-serial-port-reader-v10)
+[Back to Top](#serial-port-reader-v10)
 <br>
 
 
 ### 4. Running ###
 
-The "MALabsSerialPortReader.jar" file is an executable jar, and can be run by
+The "SerialPortReader.jar" file is an executable jar, and can be run by
 double clicking.
 
 For steps on how to operate the program, see the Step-By-Step Beginner
 Guide.txt" file.
 
-[Back to Top](#ma-labs-serial-port-reader-v10)
+[Back to Top](#serial-port-reader-v10)
 <br>
 
 
@@ -88,7 +92,7 @@ Guide.txt" file.
 Some of the errors are presented to the user through text in the window, but
 The errors can be unclear.
 
-[Back to Top](#ma-labs-serial-port-reader-v10)
+[Back to Top](#serial-port-reader-v10)
 <br>
 
 
@@ -103,12 +107,12 @@ issues has occurred:
 
 1. The credentials are wrong.
 2. The API application is Inactive on the CMMS.
-  * Check the API Applications under the MA Connect API Application Settings in
-    the Connect Management menu.
+  * Check the API Applications under the API Application Settings in the Connect
+    Management menu.
 3. The server could not be reached.
 4. There is no internet connection.
 
-[Back to Top](#ma-labs-serial-port-reader-v10)
+[Back to Top](#serial-port-reader-v10)
 <br>
 
 
@@ -151,7 +155,7 @@ to the troubleshooting section.
   [lib]: http://blog.iharder.net/wp-content/uploads/2009/08/librxtxSerial.jnilib
   [Luna]: http://www.eclipse.org/downloads/
 
-[Back to Top](#ma-labs-serial-port-reader-v10)
+[Back to Top](#serial-port-reader-v10)
 <br>
 
 
@@ -212,14 +216,14 @@ If any other unusual errors with no explanation or an unclear explanation occur,
 please send an e-mail to the most recent contributor of this program detailing
 the issue and how it can be reproduced.
 
-[Back to Top](#ma-labs-serial-port-reader-v10)
+[Back to Top](#serial-port-reader-v10)
 <br>
 
 
 ### 6. Licensing ###
 
-Maintenance Assistant Labs Serial Port Reader and Maintenance Assistant CMMS
-client for Java are licensed under the Apache License 2.0.
+The Serial Port Reader and Fiix client for Java are licensed under the Apache
+License 2.0.
 
 See [LICENSE.txt][LI1], [NOTICE.txt][NTC], and [RXTX-LICENSE.txt][LI2] files for
 more information.
@@ -228,11 +232,16 @@ more information.
   [LI2]: RXTX-LICENSE.txt
   [NTC]: NOTICE.txt
 
-[Back to Top](#ma-labs-serial-port-reader-v10)
+[Back to Top](#serial-port-reader-v10)
 <br>
 
 
 ### 7. Change Log ###
+
+#### v1.0.1 ####
+* Changes to documentation and program to reflex rebranding
+
+[Back to Top](#serial-port-reader-v10)
 
 #### v1.0.0 ####
 * Initial creation of the project
@@ -243,4 +252,4 @@ more information.
 * Created an example arduino sketch
 * Added the licensing statements
 
-[Back to Top](#ma-labs-serial-port-reader-v10)
+[Back to Top](#serial-port-reader-v10)

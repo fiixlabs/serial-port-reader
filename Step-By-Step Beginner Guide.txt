@@ -1,9 +1,8 @@
-﻿STEP-BY-STEP GUIDE
+STEP-BY-STEP GUIDE
 ==================
 
-This is a step-by-step guide for first-time users of the MA Labs Serial Port
-Reader program. For more detailed information on the program, see the
-"README.md" file.
+This is a step-by-step guide for first-time users of the Serial Port Reader
+program. For more detailed information on the program, see the "README.md" file.
 
 This program requires the Java SE Runtime Environment 8.
 
@@ -26,7 +25,7 @@ If you have any issues, see the troubleshooting section in the "README.md" file.
 The "README.md" can be viewed with a web browser or text editor, but is meant to
 be viewed from GitHub at:
 
-    https://github.com/macmms/malabs-serial-port-reader
+    https://github.com/fiixlabs/serial-port-reader
 
 --------------------------------------------------------------------------------
 
@@ -35,7 +34,7 @@ Step 1: Get your API Access keys - there are 3 of them: Application Key, Access
 
     For details on how to get your API keys, go to:
 
-        http://www.maintenanceassistant.com/api/docs/guide.html#api_keys
+        http://www.fiixsoftware.com/api/docs/guide.html#api_keys
     
     IMPORTANT: Write the keys down, they'll be needed whenever you begin the
                program.
@@ -61,7 +60,7 @@ Step 4: Start the Serial Port Reader program.
 
     To run the Serial Port Reader program, double click on the file named:
 
-        "MALabsSerialPortReader.jar"
+        "SerialPortReader.jar"
 
     The program will begin running.
 
@@ -90,7 +89,7 @@ Step 6: Input the asset ID that your serial port device is linked to and the
 
     To find the ID of an asset, take the following steps from a desktop:
 
-        1. Log into the CMMS (if not already logged in).
+        1. Log into your CMMS (if not already logged in).
         2. Select "Assets" from the menu on the left.
         3. Click on the "Set Visible Columns" button.
             -The button is a small image of a list made of squares and
@@ -102,7 +101,7 @@ Step 6: Input the asset ID that your serial port device is linked to and the
 
     To find the ID of a meter reading unit, take the following steps:
 
-        1. Log into the CMMS (if not already logged in).
+        1. Log into your CMMS (if not already logged in).
         2. Select "Assets" from the menu on the left.
         3. Click on any asset.
         4. Click on the "Metering/Events" tab.

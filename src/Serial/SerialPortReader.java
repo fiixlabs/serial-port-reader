@@ -152,7 +152,7 @@ public class SerialPortReader extends JFrame implements ActionListener, WindowLi
 			}
 		});
 
-		setTitle("MA Labs Serial Port Reader");
+		setTitle("Serial Port Reader");
 		setSize(new Dimension(260, 200));
 		setDefaultCloseOperation(DO_NOTHING_ON_CLOSE);
 		//setResizable(false);

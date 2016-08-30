@@ -8,6 +8,7 @@
 	<classpathentry kind="lib" path="lib/jackson-core-2.3.3.jar"/>
 	<classpathentry kind="lib" path="lib/jackson-databind-2.3.3.jar"/>
 	<classpathentry kind="lib" path="lib/ma-cmms-client-java-2.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/RXTXcomm.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
